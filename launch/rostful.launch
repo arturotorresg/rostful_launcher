@@ -1,0 +1,7 @@
+<launch>
+
+	<arg name="config_file" default="$(find rostful_launcher)/config/rostful.cfg" />
+
+   	<node pkg="rostful_launcher" type="run_rostful.py" name="run_rostful" output="screen" args="-c $(arg config_file)" />
+
+</launch>
