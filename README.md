@@ -24,7 +24,7 @@ roslaunch rostful_launcher rostful.launch
 ```
 OR
 ```
-roslaunch rostful_launcher rostful.launch config_file="<your_path_to_config_file>"
+roslaunch rostful_launcher rostful.launch config_file:="<your_path_to_config_file>"
 ```
 OR
 ```
